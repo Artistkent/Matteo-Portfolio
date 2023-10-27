@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tweenjs/tween.js": "^21.0.0",
+    "aframe-mirror-component": "^1.0.2",
+    "aos": "^2.3.4",
+    "firebase": "^10.5.0",
+    "three": "^0.155.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}
