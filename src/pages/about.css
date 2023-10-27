@@ -1,0 +1,43 @@
+.CV{
+    display:grid;
+padding:20px;
+width:100%;
+}
+
+.CV-grid-section{
+width: 100%;
+min-height: 0;  /* NEW */
+min-width: 0;   /* NEW; needed for Firefox */
+}
+
+.CV-grid-section ul{
+padding-left:20px;
+}
+
+.CV-grid-sub-section{
+    /* white-space: nowrap; */
+    display:flex;
+    min-height: 0;  /* NEW */
+    min-width: 0;   /* NEW; needed for Firefox */
+}
+
+.align-left{
+
+}
+
+.align-right{
+text-align: right;
+width:100%;
+}
+
+.CV-gap{
+
+}
+
+.CV h2{
+border-bottom: solid black 2px;
+}
+
+.italics{
+    font-style: italic;
+}
