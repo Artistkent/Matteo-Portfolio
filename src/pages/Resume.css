@@ -1,5 +1,14 @@
+
 body{
     background-color: #e8af8c2e;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:1.1rem;
 }
 
 .CV{
@@ -7,17 +16,24 @@ body{
  margin: auto;
  margin-top: 10px;
     max-width: 1000px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Helvetica Neue", serif;
     display:grid;
-padding:20px;
+padding:60px 40px;
 width:100%;
 }
+
+
 
 
 .CV-grid-section{
 width: 100%;
 min-height: 0;  /* NEW */
 min-width: 0;   /* NEW; needed for Firefox */
+padding:5px 0px;
+}
+
+.first-section p{
+padding:5px 0px;
 }
 
 .CV{
@@ -35,10 +51,11 @@ padding-left:20px;
     display:flex;
     min-height: 0;  /* NEW */
     min-width: 0;   /* NEW; needed for Firefox */
+    padding:0px 0px;
 }
 
 .align-left{
-
+    width:100%;
 }
 
 .align-right{
@@ -56,4 +73,21 @@ border-bottom: solid black 2px;
 
 .italics{
     font-style: italic;
+}
+
+
+/*MEDIA START*/
+
+/*MEDIA START*/
+
+/*MEDIA START*/
+
+
+@media screen and (max-width:700px) {
+
+    .CV{
+    
+    padding:40px 20px;
+  
+    }
 }
