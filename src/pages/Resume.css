@@ -1,12 +1,18 @@
+body{
+    background-color: #e8af8c2e;
+}
+
 .CV{
+    background-color: white;
  margin: auto;
  margin-top: 10px;
-    max-width: 803px;
+    max-width: 1000px;
     font-family: "Times New Roman", Times, serif;
     display:grid;
 padding:20px;
 width:100%;
 }
+
 
 .CV-grid-section{
 width: 100%;
