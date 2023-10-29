@@ -3,7 +3,9 @@
 	padding:0; 
 	margin:0;
 	scroll-behavior: smooth;
-
+	min-height: 0;
+    min-width: 0;
+transition: all 200ms;
 }
 
 *{
@@ -67,13 +69,17 @@ section{
 	overflow: hidden;
 }
 
-.first_page{
-	display: flex;
-	height:100vh;
-	max-height:100vh;
-	width:100%;
-	flex-basis:100%;
-	flex-wrap: wrap;
+.home{
+	
+flex-direction: column;
+ margin: auto;
+ margin-top: 10px;
+    max-width: 1000px;
+height:100%;
+height:calc(100vh - 70px);
+
+
+width:100%;
 
 }
 
@@ -89,10 +95,14 @@ text-decoration: underline;
 }
 
 .type_text{
+	margin:auto;
+	
 	font-size:2.3rem;
 	text-align: center;
 	align-self: center;
+	align-items: center;
 	width:100%;
+
 }
 
 .scroll_down:before {
@@ -121,6 +131,11 @@ z-index:-10;
 
 }
 
+.homepage-container{
+	display: flex;
+	height:100%;
+}
+
 .scroll_down {
 	position:relative;
 	display:flex;
@@ -131,7 +146,7 @@ z-index:-10;
 top:10%;
 
 
-max-height: 100vh;
+
 
 
 margin: auto;
@@ -146,7 +161,7 @@ cursor: pointer;
 background: none;
 }
 
-.fa-arrow-down{
+.fa-arrow-right{
 	margin-left:10px;
 }
 
@@ -184,7 +199,7 @@ top: 10px;
 justify-content: space-around;
 
 z-index:9999;
-margin:10px 0px 10px 10px;
+margin:10px 0;
 transition: transform 0.5s ease-out;
 
 animation: slide-left 0.5s ease-out;
@@ -253,7 +268,7 @@ nav a:after{
     transition: transform 0.25s ease-out;
     box-shadow:  0 0 .2px #fff,
      0 0 2px #fff,
-     0 0 5px #000000,
+     0 0 5px #000000,;
    
   }
 
@@ -659,7 +674,7 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
 
 	.navbar{
 
-	margin:10px 0px 10px 10px;
+	margin:10px 0px ;
 	}
 
 	nav a p{
