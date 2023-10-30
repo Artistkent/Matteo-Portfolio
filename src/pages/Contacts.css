@@ -42,6 +42,25 @@ background-color: white;
 #subject{
 	height:120px
 }
+
+.form-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px auto;
+    font-weight: 500;
+    
+}
+
+.form-text a{
+    display:flex;
+    align-items: center;
+}
+
+.form-text img{
+    width:25px;
+    margin:0 5px;
+}
   
 input[type=text], input[type=email], input[type=tel], select, textarea {
     width: 100%;
@@ -94,3 +113,10 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   color:#ccc;
   }
   
+  .thankyou_message{
+    display:none; 
+    color:black;
+    margin:20px;
+    font-weight: 100;
+    text-align: center;
+  }
