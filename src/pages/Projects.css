@@ -39,10 +39,15 @@ width:100%;
     color:initial;
 }
 
-.project-wrapper a:visited{
+.project-wrapper a:link{
+    text-decoration: none;
+    color:black;
+}
+
+/* .project-wrapper a:visited{
     text-decoration: none;
     color:grey;
-}
+} */
 
 
 .project-wrapper p{
