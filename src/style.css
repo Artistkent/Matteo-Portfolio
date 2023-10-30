@@ -39,6 +39,11 @@ body, html {
 
 }
 
+body{
+	display: flex;
+	flex-direction: column;
+
+}
 
 
 
@@ -58,6 +63,7 @@ body, html {
 section{
 	display: flex;
 	max-width: 100%;
+	flex: 1 0 auto;
 	padding:20px;
 	padding-top: 0;
 	/* overflow:hidden; */
@@ -66,6 +72,7 @@ section{
 #home{
 	padding: 0px;
 	margin:0px 20px;
+	flex: initial;
 	/* overflow: hidden; */
 }
 
@@ -76,7 +83,7 @@ flex-direction: column;
  margin-top: 10px;
     max-width: 1000px;
 height:100%;
-height:calc(100vh - 70px);
+height:calc(100vh - 150px);
 
 
 width:100%;
@@ -681,7 +688,7 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
 		color: black;
 		padding: 5px 5px;
 		text-align: center;
-	
+		flex-shrink: 0;
 	  }
 	  
 	  
