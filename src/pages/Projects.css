@@ -18,6 +18,8 @@ width:100%;
 .project-wrapper{
         /* white-space: nowrap; */
         background-color: white;
+        align-items: center;
+        justify-content: center;
         display: flex;
         margin:10px 0;
         padding:20px;
