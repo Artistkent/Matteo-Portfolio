@@ -672,13 +672,18 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
 
   @media screen and (max-width:700px) {
 
+*{
+	font-size:1rem;
+}
+
 	.navbar{
 
 	margin:10px 0px ;
 	}
 
 	nav a p{
-		font-size:0.8rem;
+		font-size:1rem;
+		white-space: nowrap;
 	}
 
 	.second_page{
